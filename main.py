@@ -31,3 +31,4 @@ if __name__ == "__main__":
         TOKENS = f.read().split()
     
     asyncio.get_event_loop().run_until_complete(main(TOKENS))
+    print("Online now")
